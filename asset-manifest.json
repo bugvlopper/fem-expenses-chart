@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/fem-expenses-chart/static/css/main.073c9b0a.css",
-    "main.js": "/fem-expenses-chart/static/js/main.1dd36497.js",
-    "static/js/787.4798fb9f.chunk.js": "/fem-expenses-chart/static/js/787.4798fb9f.chunk.js",
-    "static/media/logo.svg": "/fem-expenses-chart/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/fem-expenses-chart/static/css/main.23301c3d.css",
+    "main.js": "/fem-expenses-chart/static/js/main.6c062045.js",
+    "static/js/787.fe65d39b.chunk.js": "/fem-expenses-chart/static/js/787.fe65d39b.chunk.js",
     "index.html": "/fem-expenses-chart/index.html",
-    "main.073c9b0a.css.map": "/fem-expenses-chart/static/css/main.073c9b0a.css.map",
-    "main.1dd36497.js.map": "/fem-expenses-chart/static/js/main.1dd36497.js.map",
-    "787.4798fb9f.chunk.js.map": "/fem-expenses-chart/static/js/787.4798fb9f.chunk.js.map"
+    "main.23301c3d.css.map": "/fem-expenses-chart/static/css/main.23301c3d.css.map",
+    "main.6c062045.js.map": "/fem-expenses-chart/static/js/main.6c062045.js.map",
+    "787.fe65d39b.chunk.js.map": "/fem-expenses-chart/static/js/787.fe65d39b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.1dd36497.js"
+    "static/css/main.23301c3d.css",
+    "static/js/main.6c062045.js"
   ]
 }
