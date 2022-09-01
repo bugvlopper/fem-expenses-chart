@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+body{
+  font-size: 18px;
+  font-family: DM sans;
+  background-color: hsl(27, 66%, 92%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#head{
+  background-color: hsl(10, 79%, 65%);
+  width: max(540px);
+  height: max(120px);
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  border-radius: 15px;
+  color: hsl(33, 100%, 98%);
+  margin-bottom: 20px;
+}
+#head img{
+  width: 60px;
+}
+#head div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#head div p:first-of-type{
+ font-size: 1rem;
+}
+#head div p:last-of-type{
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+#mainBody{
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(33, 100%, 98%);
+  height: 510px;
+  border-radius: 15px;
+  padding: 30px;
+}
+#mainBody > p{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.body-title{
+  padding-bottom:30px;
+}
+#footer-section{
+  display: flex;
+  justify-content: space-between;
+  border-top: solid 1px hsl(27, 66%, 92%);
+  padding-top: 30px;
+}
+#price{
+  font-weight: 700;
+  font-size: 3rem;
+}
+.price-title{
+  color: hsl(28, 10%, 53%);
+}
+.footer-right-section{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.footer-right-section p:first-of-type{
+  font-weight: 700;
+}
+.footer-right-section p:last-of-type{
+  color: hsl(28, 10%, 53%);
+}
+table{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 250px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.main-tr{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 100%;
+}
+.column-charts-section{
+  height: 100%;
+  padding: 0;
+}
+tr p{
+  text-align: center;
+}
+.column-charts{
+  display: flex;
+  align-self: flex-end;
+  justify-self: center;
+  width: 50px;
+  height: 100%;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 5px;
+}
+.main-td{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  padding: 5px;
+}
+.main-td div:last-of-type{
+  padding-top: 5px;
+  color: hsl(28, 10%, 53%);
+}
+.div-column-charts{
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  position: relative;
+}
+.hover-price{
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -40px;
+  left: -7px;
+  padding: 0 !important;
+  height: 30px;
+  width: 65px;
+  background-color: hsl(25, 47%, 15%);
+  border-radius: 5px;
+  color: hsl(27, 66%, 92%) !important;
+  font-weight: 700;
+}
+.main-td:hover .hover-price{
+  display: flex;
+}
+.main-td:hover .column-charts::after{
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: hsl(27, 66%, 92%,0.5);
+}.main-td:hover .column-charts{
+  cursor: pointer;
+}
+th{
+  display: flex;
+  justify-content: center;
+}
+tbody{
+  height: 100%;
+}
+
+@media only screen and (max-width: 460px){
+  #mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #head{
+    width: 100%;
+    height: 110px;
+    padding: 25px;
+  }
+  #mainBody{
+    width: 350px;
+    height: 430px;
+    padding: 25px;
+  }
+  #mainBody > p{
+    font-size: 1.3rem;
+  }
+  table{
+    height: 220px;
+    font-size: .8rem;
+  }
+  .main-td{
+    padding: 2.5px;
+  }
+  .column-charts{
+    width: 33px;
+  }
+  #price{
+    font-size: 2rem;
+  }
+  .price-title{
+    font-size: .95rem;
+  }
+  .footer-right-section p:last-of-type{
+    font-size: .95rem;
+  }
+  .hover-price{
+    left: -17px;
+  }
+}
